@@ -1,0 +1,48 @@
+.nav {
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+
+    .text-gray {
+        color: $color_orange;
+    }
+
+    .nav-menu {
+
+        justify-content: space-between;
+    }
+
+    .nav-items {
+        list-style-type: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 0;
+
+        .nav-link {
+            padding: 1.6rem;
+            position: relative;
+            font-family: Abel;
+            font-weight: bold;
+
+            & :hover {
+                background-color: $color_orange;
+
+                &:active a {
+                    color: $color-dark
+                }
+
+            }
+
+            a {
+                color: $color-primary-light;
+            }
+        }
+    }
+}

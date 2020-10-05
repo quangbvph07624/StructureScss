@@ -1,0 +1,68 @@
+.section_blue {
+    align-items: center;
+    align-content: center;
+    ;
+    width: 100%;
+    background: #00C2FF;
+    color: $color-primary-light;
+    margin-top: 5%;
+    padding: 4em 0 2em;
+    border-top-left-radius: 40px;
+
+    clip-path: circle(87.9% at 50% 19%);
+
+    p {
+        text-align: center;
+    }
+}
+
+img {
+    margin-left: 50%;
+    margin-bottom: 30px;
+    width: 14%;
+    ;
+}
+
+
+.section_gray {
+    align-items: center;
+    align-content: center;
+    ;
+    width: 100%;
+    background: $color-primary;
+    color: $color-dark;
+    font-weight: bold;
+    padding: 4em 0 2em;
+    clip-path: circle(87.9% at 50% 19%);
+
+
+    p {
+        text-align: center;
+
+    }
+}
+
+img {
+    margin-left: 50%;
+    margin-bottom: 30px;
+    width: 14%;
+    ;
+}
+
+figcaption {
+    margin-left: 50%;
+    align-content: center;
+    font-weight: bold;
+    color: $color-blue;
+}
+
+.btn_try {
+
+    text-align: center;
+    margin-top: 5%;
+
+    h2 {
+        margin-bottom: 40px;
+    }
+
+}

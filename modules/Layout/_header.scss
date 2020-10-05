@@ -1,0 +1,39 @@
+header {
+    background-image:
+        linear-gradient(to right bottom,$color-primary, $color-primary-dark),
+        url('../assets/anhheader.jpg');
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    height: 95vh;
+    clip-path: ellipse(76% 47% at 50% 36%);
+}
+
+
+
+.heading {
+    color: $color-primary-light;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    animation-name: animationheader;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+
+}
+
+.heading-primary_main {
+    margin-bottom: 30px;
+    display: block;
+    font-size: 62px;
+    font-weight: 400;
+    letter-spacing: 15px;
+    color:$color_orange;
+}
+
+.heading-primary_sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 18px;
+
+}

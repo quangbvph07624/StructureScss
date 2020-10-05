@@ -1,0 +1,24 @@
+
+
+.footer-container {
+    width: 100%;
+    background: $color-dark-light;
+    color: $color-primary-light;
+    padding: 3em 0;
+    margin-top: 5%;
+    border-top-right-radius: 40px;
+
+}
+
+ul.footer-links {
+    margin: 0 auto;
+
+    li {
+        display: inline-block;
+
+        a {
+            color: $color-primary;
+            font-size: .8em;
+        }
+    }
+}
